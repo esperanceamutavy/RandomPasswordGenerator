@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background: #F5F5DC;
+  color: black;
+}
+.container{
+  margin: 12%;
+  width: 90%;
+  max-width: 700px;
+}
+.container h1{
+  font-weight: 500;
+  font-size: 45px;
+}
+.container h1 span{
+  color: #555555;
+  border-bottom: 4px solid #555555;
+  padding-bottom: 7px;
+}
+.display{
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 26px 20px;
+  border-radius: 5px;
+}
+.display img{
+  width: 30px;
+  cursor: pointer;
+}
+.display input{
+  border: 0;
+  outline: 0;
+  font-size: 24px;
+}
+.container button{
+  border: 0;
+  outline: 0;
+  background: #B0E0E6;
+  color: black;
+  font-size: 22px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container button:hover {
+  background: #87CEEB;
+}
+.container button img{
+  width: 24px;
+  margin-right: 10px;
+}
+
+.length-container {
+  margin-top: 20px;
+}
+
+.length-container h2 {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  padding: 5px;
+  font-size: 16px;
+  width: 60px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
